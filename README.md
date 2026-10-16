@@ -38,10 +38,10 @@ You can also upload a local audio file from the dashboard. It enters the same co
 
 Plugins are separate Git repositories cloned into the ignored `server/plugin-repos/` directory, or discovered read-only from directories listed by `MOODSYNC_PLUGIN_DIRS`. The dashboard builds source forms from each plugin manifest, so it contains no provider-specific UI code.
 
-Clone the YouTube adapter into its manifest ID directory from the MoodSync repository root. Replace the local path with its Git URL when using a remote repository:
+Clone the YouTube adapter into its manifest ID directory from the MoodSync repository root:
 
 ```bash
-git clone ../MoodSyncYouTubePlugin server/plugin-repos/youtube
+git clone https://github.com/beaterblank/MoodSyncYouTubePlugin.git server/plugin-repos/youtube
 server/.venv/bin/pip install -r server/plugin-repos/youtube/requirements.txt
 ```
 
