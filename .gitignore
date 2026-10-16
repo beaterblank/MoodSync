@@ -1,0 +1,13 @@
+server/.venv/
+server/.ml-venv/
+server/models/
+server/.env
+server/data/
+server/library/
+server/plugin-repos/
+ios/.build/
+ios/.bsp/
+ios/xtool/
+*.ipa
+__pycache__/
+*.pyc

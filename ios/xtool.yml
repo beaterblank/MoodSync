@@ -1,0 +1,4 @@
+version: 1
+bundleID: dev.moodsync.player
+product: MoodSync
+infoPath: Info.plist
